@@ -2,7 +2,7 @@
 
 +	基于[ssf2fcitx](https://github.com/VOID001/ssf2fcitx)工具进行开发，由于ssf2fcitx在Manjaro-i3发行版上有bug(不知其他发行版有没有)，遂有了此仓库
 
-+	ssf2fcitx转换之后的皮肤没有menu.png，且没有BackArrow与ForwardArrow，我在原工具的基础上针对这两项进行了修改
++	ssf2fcitx转换之后的皮肤没有menu.png，会使菜单透明，且没有BackArrow与ForwardArrow，我在原工具的基础上针对这两项进行了修改
 
 
 ## 使用

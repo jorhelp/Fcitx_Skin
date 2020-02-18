@@ -98,11 +98,13 @@ def conf():
         right = config['SkinInputBar']['MarginRight']
         out_put_pos = config['SkinInputBar']['OutputPos']
         config.set('SkinInputBar', 'MarginBottom', str(int(bottom)-7))
-        #  config.set('SkinInputBar', 'MarginLeft', str(int(left)-45))
+        config.set('SkinInputBar', 'MarginLeft', str(int(left)-20))
+        config.set('SkinInputBar', 'MarginRight', str(int(right)-20))
+
         config.set('SkinInputBar', 'BackArrowY', str(int(top)-20))
         config.set('SkinInputBar', 'ForwardArrowY', str(int(top)-20))
-        config.set('SkinInputBar', 'BackArrowX', str(64))  # str(int(right)-30))
-        config.set('SkinInputBar', 'ForwardArrowX', str(54))  # str(int(right)-40))
+        config.set('SkinInputBar', 'BackArrowX',  str(int(right)-20))
+        config.set('SkinInputBar', 'ForwardArrowX',  str(int(right)-30))
         config.set('SkinInputBar', 'OutputPos', str(int(out_put_pos)+8))
 
         with open("{}/fcitx_skin.conf".format(DIR_NAME), 'w+') as f:
